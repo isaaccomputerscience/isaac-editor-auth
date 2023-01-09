@@ -6,3 +6,8 @@ The application reads from the following environment variables:
 * `EDITOR_AUTH_CLIENT_SECRET`: The client secret of the Github OAuth application. (**required**)
 * `EDITOR_AUTH_ALLOW_ORIGIN`: The value of the `Access-Control-Allow-Origin` response header. (default: `*`).
 * `EDITOR_AUTH_PORT`: The port for the server to listen on. (default: `8080`)
+
+## Running
+```
+EDITOR_AUTH_CLIENT_SECRET=<client_secret> npm run start
+```
