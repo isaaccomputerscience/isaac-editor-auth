@@ -1,0 +1,14 @@
+{
+  "name": "isaac-editor-auth",
+  "version": "1.0.0",
+  "description": "Server for the Github OAuth Flow",
+  "main": "app.js",
+  "author": "isaaccomputerscience",
+  "license": "APACHE",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
