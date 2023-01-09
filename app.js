@@ -25,6 +25,10 @@ app.all('*', function (req, res, next) {
   next();
 });
 
+app.get('/health', (req, res) => {
+  res.send("OK");
+});
+
 app.post('/access_token', (req, res) => {
   if (!req.body.clientId || !req.body.code) {
     res.status(400).send({ error: "Invalid request body; must contain 'clientId' and 'code'" });
